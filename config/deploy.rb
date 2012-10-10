@@ -10,7 +10,7 @@ set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, "git"
-set :repository, ""
+set :repository, "git@github.com:rzust/#{application}.git"
 set :branch, "master"
 set :rvm_type, :system
 set :rvm_ruby_string, "ruby-1.9.3-p0@secondapp"

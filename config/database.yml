@@ -3,11 +3,10 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: deployapp_development
+  database: secondapp_development
   pool: 5
   username: root
-  password: 
-  socket: /tmp/mysql.sock
+  password: razm
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -19,15 +18,5 @@ test:
   database: secondapp_test
   pool: 5
   username: root
-  password: 
-  socket: /tmp/mysql.sock
+  password: razm
 
-production:
-  adapter: mysql2
-  encoding: utf8
-  reconnect: false
-  database: secondapp_production
-  pool: 5
-  username: root
-  password: 
-  socket: /tmp/mysql.sock
